@@ -13,7 +13,6 @@ const Product = () => {
   const addProduct = (product) => {
     dispatch(addCart(product));
   };
-
   useEffect(() => {
     const getProduct = async () => {
       setLoading(true);
