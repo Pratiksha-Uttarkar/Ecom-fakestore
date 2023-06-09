@@ -20,7 +20,7 @@ const Register = () => {
     localStorage.setItem("password", password);
     setEmail("");
     setPassword("");
-    navigate("/dashboard");
+    navigate("/");
   };
 
   let email1 = localStorage.getItem("email");
